@@ -19,8 +19,8 @@
             Console.WriteLine("    ");
             Console.WriteLine("My name is " + fullName + " and I will graduate in " + graduationYear + "!");
             Console.WriteLine("    ");
-            Console.WriteLine(Math.PI * (r * r)); // Pi * R^2
-            Console.WriteLine("The area is " + rounded + " cm^2");
+            Console.WriteLine("The area of a circle is " + Math.PI * (r * r)); // Pi * R^2
+            Console.WriteLine("Therefore the area is " + rounded + " cm^2");
             Console.WriteLine("    ");
             Console.WriteLine();
         }
