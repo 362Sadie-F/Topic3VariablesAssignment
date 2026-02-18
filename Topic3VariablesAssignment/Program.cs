@@ -13,6 +13,8 @@
             int r = 3;
             double area = (Math.PI * (r * r));
             double rounded = Math.Round(area, 2);
+            int num1 = 3;
+            int num2 = 2;
             Console.WriteLine("Class is in room " + roomNumber + "!");
             Console.WriteLine("My favorite class is " + courseName + ".");
             Console.WriteLine("The price of my favorite book is " + "$" + priceRounded + ".");
@@ -22,7 +24,7 @@
             Console.WriteLine("The area of a circle is " + Math.PI * (r * r)); // Pi * R^2
             Console.WriteLine("Therefore the area is " + rounded + " cm^2");
             Console.WriteLine("    ");
-            Console.WriteLine();
+            Console.WriteLine(num1 + "+" + num2 + " = " + (num1 + num2) + ", times 2 will make " + (num1 + num2) * (num2));
         }
     }
 }
